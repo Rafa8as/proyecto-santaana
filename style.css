@@ -254,6 +254,32 @@ h2 {
 
 }
 
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fab0048b;
+}
+
+.header1 nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.header1 nav ul li {
+    margin: 20px;
+}
+
+.header1 nav ul li a {
+    text-decoration: none;
+    color: #8D8DAA;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px 2px black;
+}
+
 /*----media queries-----*/
 /*------mobile-----*/
 @media only screen and (max-width:450px) {
@@ -264,8 +290,6 @@ h2 {
         grid-auto-rows: 200px;
         gap: 15px;
     }
-
-
     h1 {
         font-size: 20px;
 
