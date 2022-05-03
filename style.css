@@ -6,6 +6,10 @@
 
 h1 {
     text-align: center;
+    background-color: #E9D5DA ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-size-adjust: 18px;
+    text-shadow: none;
 }
 
 /*------- header/nav-----*/
@@ -401,7 +405,15 @@ h2 {
 
     font-weight: bold;
 }
-
+.imagenes a {
+    background-color: #FFEEEE;
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 15px;
+}
 .Imagenes p {
     font-size: 30px;
 }
